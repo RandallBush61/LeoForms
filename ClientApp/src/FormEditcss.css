@@ -1,0 +1,101 @@
+/*Dakota- Added CSS for our prototype form*/
+.formHeader{
+
+    font-size: 70px;
+    color: black;
+    text-align: center;
+    width: 400;
+    height: 150px;
+  
+  }
+
+  .linkForForm{
+    position: absolute;
+    display: flex;
+    top: 400px;
+    left: 350px;
+  }
+  
+  .formText{
+  
+    font-size: 20px;
+    color:black ;
+    text-align: center;
+    width: 800px;
+    height: 20x;
+    display: flex;
+  
+  
+  }
+  .formBody{
+  
+    background-color: white;
+    width: 800px;
+    border: 15px solid #FFC629;
+    padding: 50px;
+    margin: auto;
+  
+  
+  }
+
+  .CreateTextQuestion{
+    color: black;
+    position: fixed;
+    left: 1100px;
+    top: 200px;
+    width: 235px;
+    background: rgb(255, 198, 41);
+    border: 0px rgb(255, 198, 41) ;
+
+
+  }
+
+  .CreateMultiQuestion{
+    color: black;
+    position: fixed;
+    left: 1100px;
+    top:300px;
+    background: rgb(255, 198, 41);
+    border: 0px rgb(255, 198, 41);
+  }
+
+  .CreateScaleQuestion{
+    color:black;
+    position: fixed;
+    left:1100px;
+    top:400px;
+    width:235px;
+    background: rgb(255, 198, 41);
+    border: 0px rgb(255, 198, 41);
+  }
+
+  .buttons{
+    align-items: center;
+  }
+  
+  .button{
+  
+    color: #1A5632;
+  
+  }
+
+  .FormPopUpBackground{
+    position: fixed;
+    left: 900px;
+    top: 200px;
+    background-color: white;
+    border: 5px solid rgb(255, 198, 41);
+  }
+  
+
+  body{
+    background-color: #ffff;
+    /*margin-left: 850px;
+    margin-right: 300px;
+    width: 200px;
+    height: 500px;
+    display: flex;
+    align-items: center;
+    justify-content: right;*/
+  }
+  

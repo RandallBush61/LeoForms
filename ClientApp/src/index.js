@@ -1,16 +1,19 @@
 import 'bootstrap/dist/css/bootstrap.css';
+import 'react-bootstrap-range-slider/dist/react-bootstrap-range-slider.css';
 import React from 'react';
 import ReactDOM from 'react-dom';
-import { BrowserRouter } from 'react-router-dom';
+import { BrowserRouter} from 'react-router-dom';
 import App from './App';
 import * as serviceWorkerRegistration from './serviceWorkerRegistration';
 import reportWebVitals from './reportWebVitals';
 
-const baseUrl = document.getElementsByTagName('base')[0].getAttribute('href');
+//const baseUrl = document.getElementsByTagName('base')[0].getAttribute('href');
 const rootElement = document.getElementById('root');
 
+<script src="https://apis.google.com/js/client.js"></script>
+
 ReactDOM.render(
-  <BrowserRouter basename={baseUrl}>
+  <BrowserRouter>
     <App />
   </BrowserRouter>,
   rootElement);

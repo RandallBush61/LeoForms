@@ -7,13 +7,119 @@ code {
   color: #E01A76;
 }
 
-.btn-primary {
-  color: #fff;
-  background-color: #1b6ec2;
-  border-color: #1861ac;
+body{
+  background-color: #ffff;
+  
+}
+
+.navbar-custom {
+  background-color: #1A5632;
+  height: 100px;
+}
+
+.welcome-text{
+  font-size: 34px;
+  color: #1A5632;
+  text-align: center;
+  font-stretch: expanded;
+  position: absolute;
+  right: 350px;
+  top: 150px;
+  border: white 5px solid;
+  background-color: white;
+  animation: fadeInDelay 2s;
 }
 
 .home-Page {
-  color:#0366d6;
   align-items: center;
+}
+
+.name {
+  color: black;
+  background-color: white;
+  position: absolute;
+  bottom: 300px;
+  right: 300px;
+  animation: fadeInDelay 3s;
+}
+
+.containerO {
+  width: 300px;
+  height: 250px;
+  color: #1A5632;
+  background-color: #FFC629;
+  /* Center child horizontally*/
+  display: flex;
+  align-items: center;
+  animation: fadeIn 2s;
+  position: absolute;
+  left: 350px;
+}
+
+.login-button{
+  border-radius: 15px;
+  color: white;
+  position: absolute;
+  bottom: 300px;
+  right: 425px;
+  animation: fadeInDelay 3s;
+
+}
+
+.child {
+  font-size: 80px;
+  width: 500px;
+  height: 150px;
+  display: flex;
+}
+
+/*Dakota- Added CSS for our prototype form*/
+.formHeader{
+
+  font-size: 70px;
+  color:white;
+  text-align: center;
+  width: 400;
+  height: 150px;
+
+}
+
+.formText{
+
+  font-size: 20px;
+  color:black ;
+  text-align: center;
+  width: 800px;
+  height: 20x;
+  display: flex;
+
+
+}
+.formBody{
+
+  background-color: white;
+  width: 800px;
+  border: 15px solid #FFC629;
+  padding: 50px;
+  margin: auto;
+
+
+}
+
+.button{
+
+  color: #1A5632;
+
+}
+
+
+@keyframes fadeIn {
+    0% { opacity: 0;}
+    100% {opacity: 1;}
+}
+
+@keyframes fadeInDelay {
+    0% {opacity: 0;}
+    66% {opacity: 0;}
+    100% {opacity: 1;}
 }
